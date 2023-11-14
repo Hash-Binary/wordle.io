@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function animateLetters(){
-        const interval = 150;
+        const interval = 100;
         guessedWords.forEach((letter, index) => {
             setTimeout(()=> {
                 const tileColor = getTileColor(letter);

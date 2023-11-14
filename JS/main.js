@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 window.alert("About time you figured that out!");  
                 const redirectiontime = 1500;
                 setTimeout(()=>{
-                    window.location.href="final.html";      
+                    window.location.href="final";      
                 }, redirectiontime);    
             }
     
