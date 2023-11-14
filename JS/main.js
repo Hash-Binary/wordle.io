@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
             if (guessedWords.length === 6){
                 window.alert("Are you fucking kidding me!!!!!!");
+                window.alert("Refresh the page and try again, bitch.");
             }
     
             guessedWords.push([]);
